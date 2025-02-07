@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0",
     "json2csv": "^6.0.0-alpha.2",
+    "node-fetch": "^3.3.2",
     "puppeteer": "^24.1.1"
   }
 }

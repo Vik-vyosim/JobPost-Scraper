@@ -1,11 +1,11 @@
 // import puppeteer from 'puppeteer';
 const fs = require("fs");
 const { Parser } = require("json2csv");
-
 const puppeteer = require("puppeteer");
 
-
-const sleep = sec => new Promise(r => setTimeout(r, sec * 1000));
+// import fs from fs;
+// import { Parser } from "json2csv"; 
+// import puppeteer from "puppeteer";
 
 const coompanyList = [
     "softlabs",
